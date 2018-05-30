@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C64D41CF51EF2695AAC07D /* Pods_Detect_tap_on_word.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C213C21B00E70AEDB16C079E /* Pods_Detect_tap_on_word.framework */; };
+		94376D6520BEAF5600A9E348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94376D6420BEAF5600A9E348 /* AppDelegate.swift */; };
+		94376D6A20BEAF5600A9E348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94376D6820BEAF5600A9E348 /* Main.storyboard */; };
+		94376D6C20BEAF5600A9E348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94376D6B20BEAF5600A9E348 /* Assets.xcassets */; };
+		94376D6F20BEAF5600A9E348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94376D6D20BEAF5600A9E348 /* LaunchScreen.storyboard */; };
+		94376D7720BEAFB700A9E348 /* ViewControllerWithOutPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94376D7620BEAFB700A9E348 /* ViewControllerWithOutPod.swift */; };
+		94376D7920BEB5AD00A9E348 /* ViewControllerWithPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94376D7820BEB5AD00A9E348 /* ViewControllerWithPod.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C85F92A153AC3D7BD4127F0 /* Pods-Detect tap on word.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detect tap on word.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detect tap on word/Pods-Detect tap on word.debug.xcconfig"; sourceTree = "<group>"; };
+		94376D6120BEAF5600A9E348 /* Detect tap on word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detect tap on word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94376D6420BEAF5600A9E348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94376D6920BEAF5600A9E348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94376D6B20BEAF5600A9E348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94376D6E20BEAF5600A9E348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94376D7020BEAF5600A9E348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94376D7620BEAFB700A9E348 /* ViewControllerWithOutPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithOutPod.swift; sourceTree = "<group>"; };
+		94376D7820BEB5AD00A9E348 /* ViewControllerWithPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithPod.swift; sourceTree = "<group>"; };
+		C213C21B00E70AEDB16C079E /* Pods_Detect_tap_on_word.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detect_tap_on_word.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DC14B909AEFF43EC1B8E4E /* Pods-Detect tap on word.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detect tap on word.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detect tap on word/Pods-Detect tap on word.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94376D5E20BEAF5600A9E348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C64D41CF51EF2695AAC07D /* Pods_Detect_tap_on_word.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E6A888BF31C31789DE802B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C85F92A153AC3D7BD4127F0 /* Pods-Detect tap on word.debug.xcconfig */,
+				E2DC14B909AEFF43EC1B8E4E /* Pods-Detect tap on word.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C6C99A3DE8D177BBF4D759A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C213C21B00E70AEDB16C079E /* Pods_Detect_tap_on_word.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94376D5820BEAF5600A9E348 = {
+			isa = PBXGroup;
+			children = (
+				94376D6320BEAF5600A9E348 /* Detect tap on word */,
+				94376D6220BEAF5600A9E348 /* Products */,
+				23E6A888BF31C31789DE802B /* Pods */,
+				5C6C99A3DE8D177BBF4D759A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94376D6220BEAF5600A9E348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94376D6120BEAF5600A9E348 /* Detect tap on word.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94376D6320BEAF5600A9E348 /* Detect tap on word */ = {
+			isa = PBXGroup;
+			children = (
+				94376D7620BEAFB700A9E348 /* ViewControllerWithOutPod.swift */,
+				94376D6420BEAF5600A9E348 /* AppDelegate.swift */,
+				94376D6820BEAF5600A9E348 /* Main.storyboard */,
+				94376D7820BEB5AD00A9E348 /* ViewControllerWithPod.swift */,
+				94376D6B20BEAF5600A9E348 /* Assets.xcassets */,
+				94376D6D20BEAF5600A9E348 /* LaunchScreen.storyboard */,
+				94376D7020BEAF5600A9E348 /* Info.plist */,
+			);
+			path = "Detect tap on word";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94376D6020BEAF5600A9E348 /* Detect tap on word */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94376D7320BEAF5600A9E348 /* Build configuration list for PBXNativeTarget "Detect tap on word" */;
+			buildPhases = (
+				454CDB29E875D4F7A700984A /* [CP] Check Pods Manifest.lock */,
+				94376D5D20BEAF5600A9E348 /* Sources */,
+				94376D5E20BEAF5600A9E348 /* Frameworks */,
+				94376D5F20BEAF5600A9E348 /* Resources */,
+				6D34E90E1946BFD484BA176A /* [CP] Embed Pods Frameworks */,
+				68BC44FA8BA361E7E073D6B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detect tap on word";
+			productName = "Detect tap on word";
+			productReference = 94376D6120BEAF5600A9E348 /* Detect tap on word.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94376D5920BEAF5600A9E348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nitin Bhatia";
+				TargetAttributes = {
+					94376D6020BEAF5600A9E348 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 94376D5C20BEAF5600A9E348 /* Build configuration list for PBXProject "Detect tap on word" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94376D5820BEAF5600A9E348;
+			productRefGroup = 94376D6220BEAF5600A9E348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94376D6020BEAF5600A9E348 /* Detect tap on word */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94376D5F20BEAF5600A9E348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94376D6F20BEAF5600A9E348 /* LaunchScreen.storyboard in Resources */,
+				94376D6C20BEAF5600A9E348 /* Assets.xcassets in Resources */,
+				94376D6A20BEAF5600A9E348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		454CDB29E875D4F7A700984A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Detect tap on word-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68BC44FA8BA361E7E073D6B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Detect tap on word/Pods-Detect tap on word-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D34E90E1946BFD484BA176A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Detect tap on word/Pods-Detect tap on word-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Detect tap on word/Pods-Detect tap on word-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94376D5D20BEAF5600A9E348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94376D7920BEB5AD00A9E348 /* ViewControllerWithPod.swift in Sources */,
+				94376D6520BEAF5600A9E348 /* AppDelegate.swift in Sources */,
+				94376D7720BEAFB700A9E348 /* ViewControllerWithOutPod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94376D6820BEAF5600A9E348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94376D6920BEAF5600A9E348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94376D6D20BEAF5600A9E348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94376D6E20BEAF5600A9E348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94376D7120BEAF5600A9E348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94376D7220BEAF5600A9E348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94376D7420BEAF5600A9E348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C85F92A153AC3D7BD4127F0 /* Pods-Detect tap on word.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Detect tap on word/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nitin-Bhatia.Detect-tap-on-word";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94376D7520BEAF5600A9E348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DC14B909AEFF43EC1B8E4E /* Pods-Detect tap on word.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Detect tap on word/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nitin-Bhatia.Detect-tap-on-word";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94376D5C20BEAF5600A9E348 /* Build configuration list for PBXProject "Detect tap on word" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94376D7120BEAF5600A9E348 /* Debug */,
+				94376D7220BEAF5600A9E348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94376D7320BEAF5600A9E348 /* Build configuration list for PBXNativeTarget "Detect tap on word" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94376D7420BEAF5600A9E348 /* Debug */,
+				94376D7520BEAF5600A9E348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94376D5920BEAF5600A9E348 /* Project object */;
+}
